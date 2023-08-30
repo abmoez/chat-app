@@ -79,6 +79,7 @@ socket.on("feedback", (data) => {
   </li>
   `;
   messageContainer.innerHTML += element;
+  scrollToBottom();
 });
 
 function clearFeedback() {
