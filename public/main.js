@@ -55,7 +55,7 @@ function scrollToBottom() {
 
 messageInput.addEventListener("focus", (e) => {
   socket.emit("feedback", {
-    feedback: `${nameInput.value} is typing ...`,
+    feedback: `✍🏻️ ${nameInput.value} is typing ...`,
   });
 });
 
